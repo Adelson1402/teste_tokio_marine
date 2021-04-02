@@ -17,7 +17,7 @@ nelas a interface.
 # Spring Framework
 
 ♦Possuo projetos com Spring Security, com os dois metodos de implementação de autenticação (autenticação via memória e autenticação via banco de dados com criptografia de senha), também com Spring Data JPA Onde ele faz a intermediação de dados de clases Entity, coim o banco
-além de agregar colunas para classes filhas e persistencia de dados no DB. **Spring MVC ** onde temos o conceito de camadas MVC -  Model, View e controller, nesse conceito podemos trabalhar desenvolvendo uma api (como nesse caso) e introduzir camadas "intermediárias"
+além de agregar colunas para classes filhas e persistencia de dados no DB. **Spring MVC** onde temos o conceito de camadas MVC -  Model, View e controller, nesse conceito podemos trabalhar desenvolvendo uma api (como nesse caso) e introduzir camadas "intermediárias"
 para essa api com uma view. o **controller** recebe as requisições onde ele faz um "pré-processamento" dessas requisições, as trata e as envia mais fundo no back-END, onde o restante do tratamento é feito lá e também a persistencia, ou select.
 **view** recebe as requisiçoes de volta já tratadas e com os seus devidos parametros já setados para a exibição em um HTML.
 **model** executa e trata as regras de negocio que foram mais a fundo, aqui ficam as entidades e respostas tratadas, convertidas ou negadas (exceptions), um exemplo de um tipo de classe model são essas entidades onde sempre estão presentes na orientação a objetos.
