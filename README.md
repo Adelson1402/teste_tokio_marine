@@ -70,8 +70,8 @@ pronto para consumo.
 	
 	[DELETE] fazendo um DELETE para "/customers/delete" nós excluimos uma pessoa e seus endereços agregados, é necessário passar apenas o id,nome e email, sem os objetos do endereço.
 	
-#                                       ♦
-EM CASO DE DÚVIDAS É SÓ ME CHAMAR VIA E-MAIL OU WHATSAPP
+                                       ♦
+# EM CASO DE DÚVIDAS É SÓ ME CHAMAR VIA E-MAIL OU WHATSAPP
 	
 
 ### Requisitos
