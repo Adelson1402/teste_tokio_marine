@@ -64,11 +64,13 @@ pronto para consumo.
 	
 	[GET] fazendo um GET para "/customers" nós teremos uma lista de pessoas e seus endereços vinculados, para esse PATH a busca não terá pagincação.
 	
-	[GET] fazendo um GET para "/customer/pages" nós teremos uma lista de pessoas e seus endereços, para customizarmos a buscar nós inserimos no caminho "?page=1&size=5" , onde page significa a pagina a sercarregadas e size significa quantos objetos serão carregados por página
+	[GET] fazendo um GET para "/customer/pages" nós teremos uma lista de pessoas e seus endereços, para customizarmos a buscar nós inserimos no caminho "?page=1&size=5" , onde **page** significa a pagina a ser carregadas e **size** significa quantos objetos serão carregados por página
 	
 	[PUT] fazendo um PUT para "/customers/update" nós atualizamos apenas a pessoa, não é necessário passar os objetos do endereço.
 	
 	[DELETE] fazendo um DELETE para "/customers/delete" nós excluimos uma pessoa e seus endereços agregados, é necessário passar apenas o id,nome e email, sem os objetos do endereço.
+	
+# ♦EM CASO DE DÚVIDAS É SÓ ME CONTACTAR VIA E-MAIL OU WHATSAPP
 	
 
 ### Requisitos
