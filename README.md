@@ -36,14 +36,14 @@ pronto para consumo.
 
 ♦**Algumas das boas práticas** são a utilização correta dos verbos GET, POST, PUT e DELETE onde o aprofundamento desse mapeamento nos leva ao nível HATEOAS que possibilita a fácil compreensão da API para manutenção ou consumo.
 
-♦**GET** -> Utilizado para requisitar uma ou mais informações do back-END, seja ela do bando de dados ou não.
-  **POST** -> Utilizado para enviar dados para a persistencia no banco.
-  **PUT**  -> Utilizado para a atualização de dados, na maioria das vezes é necessário passar o identificados para que o objeto seja atualizado.
-  **DELETE** -> Utilizado para deletar um objeto do banco, seguindo o principio do PUT onde é passado o identificador ou o corpo completo do JSON via RequestBody.
+♦**GET** -> Utilizado para requisitar uma ou mais informações do back-END, seja ela do bando de dados ou não.  
+  **POST** -> Utilizado para enviar dados para a persistencia no banco.  
+  **PUT**  -> Utilizado para a atualização de dados, na maioria das vezes é necessário passar o identificados para que o objeto seja atualizado.  
+  **DELETE** -> Utilizado para deletar um objeto do banco, seguindo o principio do PUT onde é passado o identificador ou o corpo completo do JSON via RequestBody.    
   
-♦ **200** indica que a solicitação obteve sucesso
-   **400**  indica que há algo de errado com a solicitação e a mesma precisa ser refeita
-   **500** indica que há um erro no servidor ou na camada bruta de negócio.
+♦ **200** indica que a solicitação obteve sucesso  
+   **400**  indica que há algo de errado com a solicitação e a mesma precisa ser refeita  
+   **500** indica que há um erro no servidor ou na camada bruta de negócio.  
    
                                   # SOBRE O PROJETO
 	
